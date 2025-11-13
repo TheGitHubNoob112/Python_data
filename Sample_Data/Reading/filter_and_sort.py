@@ -2,7 +2,7 @@ import csv
 
 # Read CSV file into a list of dictionaries
 data = []
-with open("../SynthData.csv", newline="", encoding="utf-8") as csvfile:
+with open("Sample_Data/SynthData.csv", newline="", encoding="utf-8") as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         # Convert Age and Salary to integers for sorting/filtering
